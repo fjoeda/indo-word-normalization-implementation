@@ -1,0 +1,8 @@
+{
+    "num_encoder_decoder_layers": [2, 4, 6],
+    "num_head": [2, 4, 8],
+    "embedding_dim": [64, 128, 256],
+    "feedforward_dim": 2048,
+    "dropout": 0.1,
+    "learning_rate": 0.005
+}

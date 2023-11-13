@@ -7,7 +7,6 @@ def evaluate(true_list, pred_list):
     acc = np.sum(np.array(true_list) == np.array(pred_list)).item() / len(pred_list)
     cer = CharErrorRate()
     bleu_1 = BLEUScore(n_gram=1)
-    bleu_2 = BLEUScore(n_gram=2)
     cer_list = []
     bleu_1_list = []
     for true, pred in zip(true_list, pred_list):
